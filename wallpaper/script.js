@@ -67,7 +67,6 @@ draw=() => {
     }
 };
 
-
 function shuffle(){
 
     backgroundColor=hexToRGB(document.getElementById("backgroundColor").value)
@@ -81,3 +80,4 @@ function shuffle(){
 
     draw();
 }
+shuffle();
