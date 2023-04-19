@@ -5,7 +5,7 @@ const ctx = canvas.getContext("2d");
 ctx.fillStyle = "rgb(0, 0, 0)";
 
 const squareSize=5;
-const padding=50;
+const padding=25;
 
 function paint(i,j){
     ctx.fillRect(i*squareSize,j*squareSize,squareSize-1,squareSize-1);
